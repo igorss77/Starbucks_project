@@ -12,12 +12,12 @@ The task is to use the training data to understand what patterns in V1-V7 to ind
 *Incremental Response Rate (IRR)*
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion. Mathematically, it's the ratio of the number of purchasers in the promotion group to the total number of customers in the purchasers group (treatment) minus the ratio of the number of purchasers in the non-promotional group to the total number of customers in the non-promotional group (control).
 
-IRR = Purch<inf>treat</inf>/Cust<inf>treat</inf> - Purch<inf>control</inf>/Cust<inf>control</inf>
+IRR = Purch<sub>treat</sub>/Cust<sub>treat</sub> - Purch<sub>control</sub>/Cust<sub>control</sub>
 
 *Net Incremental Revenue (NIR)*
 NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number of purchasers that received the promotion minus 0.15 times the number of promotions sent out, minus 10 times the number of purchasers who were not given the promotion.
 
-NIR = (10 x Purchtreat - 0.15 x Custtreat) - 10 x Purchcontrol
+NIR = (10 x Purch<sub>treat</sub> - 0.15 x Cust<sub>treat</sub>) - 10 x Purch<sub>control</sub>
 # Files
 `training.csv` - A file with all the training data
 
