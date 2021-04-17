@@ -20,12 +20,19 @@ The dataset you will be provided in this portfolio exercise was originally used 
 # Requirements
 
 seaborn==0.8.1
+
 scipy==1.2.1
+
 scikit-learn==0.24.1
+
 pandas==1.1.5
+
 numpy==1.19.5
+
 matplotlib==2.1.0
+
 imblearn==0.0
+
 catboost==0.25.1
 
 # Solution
