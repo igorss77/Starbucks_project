@@ -8,9 +8,13 @@ The dataset you will be provided in this portfolio exercise was originally used 
 
 # Files
 `training.csv` - A file with all the training data
+
 `Test.csv` - Test data for the model 
+
 `Starbucks.ipynb` - A notebook with all the steps to get the solution
+
 `test_results.py` - A module to check the results of the model and the solution find by Udacity
+
 `requirementes.txt` - All libraries need to run the notebook
 
 # Requirements
@@ -33,7 +37,7 @@ NIR with this strategy is 319.00.
 
 Udacity came up with a model with an IRR of 0.0188 and a NIR of 189.45 on the test set.
 
-The model get a better NIR and pratically the samme IRR compared to Udacity results.
+The model get a better NIR and pratically the same IRR compared to Udacity results.
 # Acknowledgment 
 
 To Starbucks and Udacity for provide those datasets.
